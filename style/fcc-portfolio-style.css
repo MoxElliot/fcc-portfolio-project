@@ -1,0 +1,25 @@
+#navbar {
+    border: 1px solid blue;
+    height: 10vh;
+}
+#nav-title {
+    border: 1px solid red;
+    text-align: center;
+    height:50%
+}
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item {
+    border: 1px solid green;
+    flex: 1;
+}
+.nav-link {
+     text-decoration: none;
+     color: #000000;
+     
+}
