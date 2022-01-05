@@ -32,12 +32,14 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .nav-item {
     text-align: center;
     list-style-type: none;
-
+    flex-basis: 50%;
+    min-width: 50%;
 }
 
 .nav-link {
@@ -51,10 +53,5 @@ body {
     background-color: #333
 }
 
-main {
-    padding-top: 8rem;
-}
-
 section {
-    padding-top: 8rem;
-}
+    padding-top: 10rem;
