@@ -107,12 +107,12 @@ body {
     width: 100%;
 }
 
-.project-tile {
+.project-title {
     background-color: #063970;
     
 }
 
-.project-tile a {
+.project-title a {
     text-decoration: none;
 }
 .project-title {
