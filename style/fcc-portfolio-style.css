@@ -109,10 +109,9 @@ body {
 
 .project-title {
     background-color: #063970;
-    
 }
 
-.project-title a {
+.project-link {
     text-decoration: none;
 }
 .project-title {
