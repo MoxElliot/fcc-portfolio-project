@@ -105,10 +105,12 @@ body {
 .tile-image {
     height: calc(100% - 1rem);
     width: 100%;
+    max-width: 40vw;
 }
 
 .project-title {
     background-color: #063970;
+    
 }
 
 .project-link {
