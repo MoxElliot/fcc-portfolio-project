@@ -121,3 +121,31 @@ body {
     font-size: 4em;
     
 }
+
+/*About me & Contact Styling*/
+#about-me h2, #contact{
+    font-size: 5rem;
+}
+#about-me {
+    padding: 12rem 2rem 2rem 2rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#contact h2 {
+    text-align: center;
+}
+
+#contact-bar {
+    margin: 1em;
+    padding: 0.5em;
+    border: 2px solid #ffffff;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  #contact-bar, #contact-bar a{
+      text-decoration: none;
+      list-style-type: none;
+  }
