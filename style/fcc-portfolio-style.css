@@ -93,9 +93,10 @@ body {
     text-align: center;
 }
 #welcome-section {
-    background-image: url("https://t3.ftcdn.net/jpg/04/31/85/60/240_F_431856042_O71YDaGFMku46xpRX2gMMdZoqKlwsIe6.jpg");
+    background-image: url("https://as2.ftcdn.net/v2/jpg/00/89/97/05/1000_F_89970534_T0DOG6zW2gH1Jjy48ixt8yOj7OkU5gsO.jpg");
     background-size: cover;
     padding: 15rem 2rem 2rem 2rem;
+    height: 100vh;
 }
 
 /*Project List Styling*/
@@ -160,11 +161,16 @@ body {
     font-size: 5rem;
 }
 #about-me {
+    display: grid;
+    grid-template-columns: 1fr;
     padding: 12rem 2rem 2rem 2rem;
     font-size: 3rem;
     text-align: center;
 }
+#about-me-image {
 
+
+}
 #contact h2 {
     text-align: center;
 }
