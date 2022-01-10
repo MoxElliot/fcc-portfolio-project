@@ -38,7 +38,22 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+@media screen and (min-width: 769px){
+    .nav-list{
+       flex-direction: row;
+       flex-wrap: nowrap;
+       justify-content: center;
+    }
+    .nav-div {
+        height: 8rem;
+    }
 
+    .nav-item {
+        width: 10rem;
+    }
+   
+   
+  }
 .nav-item {
     text-align: center;
     list-style-type: none;
@@ -102,6 +117,9 @@ body {
     grid-gap: 3rem;
 }
 
+@media screen and (min-width: 769px){
+    
+}
 .tile-image {
     height: calc(100% - 1rem);
     width: 100%;
@@ -111,6 +129,10 @@ body {
 .project-title {
     background-color: #063970;
     
+}
+
+.project-title:hover {
+    background-color: #333;
 }
 
 .project-link {
@@ -151,3 +173,4 @@ body {
       text-decoration: none;
       list-style-type: none;
   }
+
