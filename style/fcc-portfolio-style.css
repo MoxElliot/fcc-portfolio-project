@@ -110,20 +110,29 @@ body {
 }
 
 #project-div {
-    display: inline;
-    grid-template-columns: auto;
-    width:100%;
-    padding: 2rem;
+    display: grid;
+    grid-template-columns: 60vw;
     grid-gap: 3rem;
+    justify-content: center;
 }
 
 @media screen and (min-width: 769px){
-    
+    #project-div {
+        display: grid;
+        grid-template-columns: 40vw 40vw; 
+        padding: 2rem;
+        grid-gap: 3rem;
+    }
+
+    #profile-link {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
 }
 .tile-image {
     height: calc(100% - 1rem);
     width: 100%;
-    max-width: 40vw;
+    max-width: 60vw;
 }
 
 .project-title {
