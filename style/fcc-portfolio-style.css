@@ -163,13 +163,39 @@ body {
 #about-me {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: .5fr 1fr .5fr;
     padding: 12rem 2rem 2rem 2rem;
     font-size: 3rem;
     text-align: center;
 }
+
 #about-me-image {
+    justify-self:stretch;
+}
 
-
+@media screen and (min-width: 769px){
+   
+    #about-me {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: .5fr 1fr .5fr;
+        padding: 12rem 2rem 2rem 2rem;
+        font-size: 3rem;
+        text-align: center;
+        grid-template-areas: 
+        "header header"
+        "sidebar main";
+    }
+    
+    #about-me-image {
+       grid-area: sidebar;
+    }
+    #about-me-text {
+        grid-area: main;
+    }
+    #about-me-header {
+        grid-area: header;
+    }
 }
 #contact h2 {
     text-align: center;
@@ -189,3 +215,4 @@ body {
       list-style-type: none;
   }
 
+/* https://t4.ftcdn.net/jpg/01/25/68/13/240_F_125681396_ITQILuRUKsqCe3xzBp6cj9LA72f4Y4Ch.jpg/* /*sidebar image for about*/
