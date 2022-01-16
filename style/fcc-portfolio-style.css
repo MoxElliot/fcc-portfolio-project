@@ -97,6 +97,7 @@ body {
     background-size: cover;
     padding: 15rem 2rem 2rem 2rem;
     height: 100vh;
+    text-shadow: 2px 2px 10px #063970;
 }
 
 /*Project List Styling*/
@@ -108,7 +109,7 @@ body {
     padding: 11rem 2rem 2rem 2rem;
     font-size: 3rem;
     text-align: center;
-    background-color: green;
+    background-color: #0B0B45;
 }
 
 #project-div {
@@ -119,10 +120,6 @@ body {
   
 }
 
-.project-link {
-    justify-self: stretch;
-}
-
 @media screen and (min-width: 769px){
     #project-div {
         display: grid;
@@ -130,10 +127,6 @@ body {
         grid-gap: 3rem;
     }
 
-    #profile-link {
-        grid-column-start: 1;
-        grid-column-end: 4;
-    }
 }
 .tile-image {
     width: 100%;
@@ -198,6 +191,10 @@ body {
     text-align: center;
 }
 
+#contact li {
+    font-size: 2em;
+    }
+
 #contact-bar {
     margin: 1em;
     padding: 0.5em;
@@ -205,6 +202,7 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    background-color: #063970;
   }
 
   #contact-bar, #contact-bar a{
@@ -212,4 +210,3 @@ body {
       list-style-type: none;
   }
 
-/* https://t4.ftcdn.net/jpg/01/25/68/13/240_F_125681396_ITQILuRUKsqCe3xzBp6cj9LA72f4Y4Ch.jpg/* /*sidebar image for about*/
